@@ -105,7 +105,7 @@ def setup_login_by_url(polygon_name):
         print('Authentication data is stored in {}'.format(authentication_file))
 
 
-polygon_url = None
+polygon_url = MAIN_POLYGON_URL
 login = None
 password = None
 api_key = None
